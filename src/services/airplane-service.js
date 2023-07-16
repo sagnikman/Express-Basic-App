@@ -13,7 +13,7 @@ async function createAirplane(data) {
 
 async function getAirplane(data) {
     try {
-        const airplane = await airplaneRepository.get(data);
+        const airplane = await airplaneRepository.get(data.id);
         return airplane;
     } catch (error) {
         throw error;
