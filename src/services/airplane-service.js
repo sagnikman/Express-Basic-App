@@ -18,7 +18,7 @@ async function getAirplane(data) {
     } catch (error) {
         throw error;
     }
-} 
+}
 
 module.exports = {
     createAirplane,
